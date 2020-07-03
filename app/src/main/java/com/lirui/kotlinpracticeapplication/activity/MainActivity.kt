@@ -1,10 +1,10 @@
-package com.lirui.kotlinpracticeapplication
+package com.lirui.kotlinpracticeapplication.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
+import com.lirui.kotlinpracticeapplication.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
